@@ -55,7 +55,7 @@ Parameters are used to give extra information to a function, and look like this:
 function functionName(parameterName: parameterType = defaultValue):
 ```
 
-They can be named just like variables, so nearly anything you want. Avoid `:` and `*`, though, they can mess things up. The `parameterType` is the type of the parameter, surprisingly enough. This can be any type you want, but should be pretty specific. Is it a `player`, or a `number`, or maybe even a `inventory`. You can allow lists by making the type plural. If you're not sure what type to use, or you want to allow multiple types, use `object`.
+They can be named just like variables, so nearly anything you want. Avoid `:` and `*`, though, they can mess things up. The `parameterType` is the type of the parameter, surprisingly enough. This can be any type you want, but should be pretty specific. Is it a `player`, a `number`, or maybe even an `inventory`. You can allow lists by making the type plural. If you're not sure what type to use, or you want to allow multiple types, use `object`.
 
 That's a lot, so here's a small example:
 
